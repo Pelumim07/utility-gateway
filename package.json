@@ -1,0 +1,16 @@
+{
+  "name": "airtime-gateway-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pay MON, get airtime/data. Onchain payment gateway for the BuildAnything Spark hackathon.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:testnet": "hardhat run scripts/deploy.js --network monadTestnet",
+    "console:testnet": "hardhat console --network monadTestnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.0"
+  }
+}
